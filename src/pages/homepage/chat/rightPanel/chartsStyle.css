@@ -1,0 +1,23 @@
+/* DynamicHeatMap: avoid fixed position for y labels */
+#y-label {
+  flex: 0 0 150px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#y-label div {
+  position: unset !important;
+  width: 150px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#x-labels-list div {
+  width: 80px !important;
+}
+#outer-container {
+  display: grid;
+}
+#heatmap-row {
+  margin-right: 2rem;
+}
